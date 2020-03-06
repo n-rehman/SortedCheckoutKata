@@ -23,7 +23,12 @@ namespace CheckoutBusinessLayer
 		{
 			decimal total = 0;
 
-			total = productsCatalogue.Single(p => p.SKU == "A99").Price;
+			foreach (var prod in scannedProducts)
+			{
+				total += productsCatalogue.Single(p => p.SKU == prod).Price;
+			}
+
+			
 			return total;
 		}
 
