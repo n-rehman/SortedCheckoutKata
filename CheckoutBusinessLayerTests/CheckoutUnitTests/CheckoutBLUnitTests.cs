@@ -66,5 +66,20 @@ namespace CheckoutUnitTests
 			Assert.AreEqual(1.40M, iCheckout.Total());
 
 		}
+		[TestMethod]
+		public void Three_A999_Items_Gets20PDiscount()
+		{
+			//arrange 
+			ICheckout iCheckout = checkout;
+
+
+			//act
+			iCheckout.Scan("A99");
+			iCheckout.Scan("A99");
+			iCheckout.Scan("A99");
+			//assert
+			Assert.AreEqual(1.30M, iCheckout.Total());
+
+		}
 	}
 }
