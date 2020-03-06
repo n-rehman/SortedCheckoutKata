@@ -45,10 +45,26 @@ namespace CheckoutUnitTests
 
 			//act
 			iCheckout.Scan("A99");
+			
+			
 			//assert
 			Assert.AreEqual(0.50M, iCheckout.Total());
 
 		}
+		[TestMethod]
+		public void Three_Different_Items_Cost_140P()
+		{
+			//arrange 
+			ICheckout iCheckout = checkout;
 
+
+			//act
+			iCheckout.Scan("A99");
+			iCheckout.Scan("B15");
+			iCheckout.Scan("C40");
+			//assert
+			Assert.AreEqual(1.40M, iCheckout.Total());
+
+		}
 	}
 }
