@@ -22,13 +22,27 @@ namespace CheckoutBusinessLayer
 		public decimal Total()
 		{
 			decimal total = 0;
+			decimal discount = 0;
+			total = getTotal(total);
+			discount = getDiscount(discount);
 
+			return total - discount;
+		}
+
+		private decimal getDiscount(decimal discount)
+		{
+			if (scannedProducts.Count(basket => basket == "A99") == 3)
+				discount += 0.20m;
+			return discount;
+		}
+
+		private decimal getTotal(decimal total)
+		{
 			foreach (var prod in scannedProducts)
 			{
 				total += productsCatalogue.Single(p => p.SKU == prod).Price;
 			}
 
-			
 			return total;
 		}
 
