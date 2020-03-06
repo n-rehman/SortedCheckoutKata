@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Checkout.cs" />
+    <Compile Include="Discount.cs" />
     <Compile Include="ICheckout.cs" />
+    <Compile Include="IDiscount.cs" />
     <Compile Include="IProduct.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

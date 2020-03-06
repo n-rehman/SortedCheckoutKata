@@ -18,9 +18,13 @@ namespace CheckoutUnitTests
 				new Product{SKU = "C40", Price = 0.60m}
 			};
 
-			
+			IEnumerable<IDiscount> discount = new[]
+			{
+				new Discount{SKU = "A99", Quantity = 3, Value = 0.20m},
+				new Discount{SKU = "B15", Quantity = 2, Value = 0.15m},
+			};
 
-			checkout = new Checkout(products);
+			checkout = new Checkout(products, discount);
 		}
 		
 		[TestMethod]
@@ -93,7 +97,7 @@ namespace CheckoutUnitTests
 			iCheckout.Scan("B15");
 			
 			//assert
-			Assert.AreEqual(0.45M, iCheckout.Total());
+			Assert.AreEqual(0.45m, iCheckout.Total());
 
 		}
 	}

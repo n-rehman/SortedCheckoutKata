@@ -10,14 +10,16 @@ namespace CheckoutBusinessLayer
 	{
 		private List<string> scannedProducts;
 		private readonly IEnumerable<IProduct> productsCatalogue;
+		private readonly IEnumerable<IDiscount> _discounts;
 
 
 		public List<string> ScannedProducts { get { return scannedProducts; } }
 
-		public Checkout(IEnumerable<IProduct> products)
+		public Checkout(IEnumerable<IProduct> products, IEnumerable<IDiscount> discounts)
 		{
 			scannedProducts = new List<string>();
 			productsCatalogue = products;
+			_discounts = discounts;
 		}
 		public decimal Total()
 		{
@@ -31,8 +33,15 @@ namespace CheckoutBusinessLayer
 
 		private decimal getDiscount(decimal discount)
 		{
-			if (scannedProducts.Count(basket => basket == "A99") == 3)
-				discount += 0.20m;
+			foreach (var disc in _discounts)
+			{
+				//check if any prod qualify discount
+				if (scannedProducts.Count(basket => basket == disc.SKU) == disc.Quantity)
+					discount += disc.Value;
+
+
+			}
+			
 			return discount;
 		}
 
