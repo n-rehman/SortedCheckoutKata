@@ -100,5 +100,32 @@ namespace CheckoutUnitTests
 			Assert.AreEqual(0.45m, iCheckout.Total());
 
 		}
+		[TestMethod]
+		public void verify_multi_discount_combinations()
+		{
+			//arrange 
+			ICheckout iCheckout = checkout;
+
+
+			//act
+			iCheckout.Scan("B15");//0.30
+			iCheckout.Scan("A99");//0.50
+			iCheckout.Scan("A99");//0.50			
+			iCheckout.Scan("B15");//0.30		
+			iCheckout.Scan("C40");//0.60
+			iCheckout.Scan("C40");//0.60
+			iCheckout.Scan("C40");//0.60
+			iCheckout.Scan("A99");//0.50
+
+
+			var total = checkout.Total();
+			//assert
+			//3As = 1.5 - 0.2= 1.30
+			//2Bs = 0.60 -15 = 0.45
+			//3Cs = 1.8 - 0 =1.8
+			
+			Assert.AreEqual(3.55m, total);
+
+		}
 	}
 }
