@@ -1,0 +1,6 @@
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayer\CheckoutBusinessLayer\bin\Debug\CheckoutBusinessLayer.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayer\CheckoutBusinessLayer\bin\Debug\CheckoutBusinessLayer.pdb
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayer\CheckoutBusinessLayer\obj\Debug\CheckoutBusinessLayer.csprojAssemblyReference.cache
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayer\CheckoutBusinessLayer\obj\Debug\CheckoutBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayer\CheckoutBusinessLayer\obj\Debug\CheckoutBusinessLayer.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayer\CheckoutBusinessLayer\obj\Debug\CheckoutBusinessLayer.pdb

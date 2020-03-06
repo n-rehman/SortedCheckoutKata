@@ -6,7 +6,37 @@ using System.Threading.Tasks;
 
 namespace CheckoutBusinessLayer
 {
-    public class Class1
-    {
-    }
+	public class Checkout :ICheckout 
+	{
+		private List<string> scannedProducts;
+		private readonly IEnumerable<IProduct> productsCatalogue;
+		
+
+		public List<string> ScannedProducts { get { return scannedProducts; } }
+
+		public Checkout(IEnumerable<IProduct> products)
+		{
+			scannedProducts = new List<string>();
+			productsCatalogue = products;
+		}
+		public decimal Total()
+		{
+			return 0m;
+		}
+
+		public void Scan(string item)
+		{
+			if (!string.IsNullOrEmpty(item))
+			{
+				if (productsCatalogue.Any(product => product.SKU == item))
+				{
+					scannedProducts.Add(item);
+				}
+
+			}
+		}
+
+		
+	}
+
 }

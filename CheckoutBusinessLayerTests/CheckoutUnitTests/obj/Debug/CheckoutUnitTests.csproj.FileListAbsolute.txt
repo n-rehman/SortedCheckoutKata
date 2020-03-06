@@ -1,0 +1,16 @@
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\CheckoutUnitTests.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\CheckoutUnitTests.pdb
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\CheckoutBusinessLayer.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\CheckoutBusinessLayer.pdb
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\obj\Debug\CheckoutUnitTests.csprojAssemblyReference.cache
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\obj\Debug\CheckoutUnitTests.csproj.CoreCompileInputs.cache
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\obj\Debug\CheckoutUnitTests.csproj.CopyComplete
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\obj\Debug\CheckoutUnitTests.dll
+C:\Users\n.rehman\Documents\Visual Studio 2017\Practice\SortedCheckoutKata\SortedCheckoutKata\CheckoutBusinessLayerTests\CheckoutUnitTests\obj\Debug\CheckoutUnitTests.pdb
