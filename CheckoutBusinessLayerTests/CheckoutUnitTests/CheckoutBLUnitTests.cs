@@ -49,5 +49,6 @@ namespace CheckoutUnitTests
 			Assert.AreEqual(0.50M, iCheckout.Total());
 
 		}
+
 	}
 }

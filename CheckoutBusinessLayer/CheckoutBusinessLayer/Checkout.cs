@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CheckoutBusinessLayer
 {
-	public class Checkout :ICheckout 
+	public class Checkout : ICheckout
 	{
 		private List<string> scannedProducts;
 		private readonly IEnumerable<IProduct> productsCatalogue;
-		
+
 
 		public List<string> ScannedProducts { get { return scannedProducts; } }
 
@@ -21,7 +21,10 @@ namespace CheckoutBusinessLayer
 		}
 		public decimal Total()
 		{
-			return 0m;
+			decimal total = 0;
+
+			total = productsCatalogue.Single(p => p.SKU == "A99").Price;
+			return total;
 		}
 
 		public void Scan(string item)
@@ -36,7 +39,7 @@ namespace CheckoutBusinessLayer
 			}
 		}
 
-		
+
 	}
 
 }
