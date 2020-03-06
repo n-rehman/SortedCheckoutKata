@@ -36,5 +36,18 @@ namespace CheckoutUnitTests
 			Assert.AreEqual("A99", iCheckout.ScannedProducts.FindLast(p => p=="A99"));
 
 		}
+		[TestMethod]
+		public void Single_A99_Cost_50P()
+		{
+			//arrange 
+			ICheckout iCheckout = checkout;
+
+
+			//act
+			iCheckout.Scan("A99");
+			//assert
+			Assert.AreEqual(0.50M, iCheckout.Total());
+
+		}
 	}
 }
