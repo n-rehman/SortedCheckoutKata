@@ -81,5 +81,20 @@ namespace CheckoutUnitTests
 			Assert.AreEqual(1.30M, iCheckout.Total());
 
 		}
+		[TestMethod]
+		public void Two_B15_Items_Get15PDiscount()
+		{
+			//arrange 
+			ICheckout iCheckout = checkout;
+
+
+			//act
+			iCheckout.Scan("B15");
+			iCheckout.Scan("B15");
+			
+			//assert
+			Assert.AreEqual(0.45M, iCheckout.Total());
+
+		}
 	}
 }
